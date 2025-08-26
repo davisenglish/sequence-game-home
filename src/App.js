@@ -5,7 +5,7 @@ function LetterSequenceGame() {
     <div className="p-6 max-w-xl mx-auto text-center space-y-6 relative overflow-hidden">
       <div className="flex justify-center items-center relative flex-col">
         <img 
-          src="/letter-game-logo2.png" 
+          src={process.env.PUBLIC_URL + "/letter-game-logo2.png"} 
           alt="Sequence Game Logo" 
           className="w-24 h-24 mb-4 object-contain"
           onError={(e) => {
